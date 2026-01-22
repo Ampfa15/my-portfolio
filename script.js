@@ -25,7 +25,7 @@ const projects = [
     description:
       "Built a full-stack web application using React and FastAPI to visualize complex datasets. The application allows users to upload their data, select different chart types, and interact with the visualizations to gain insights.",
     tags: ["React", "FastAPI", "Python", "Full-Stack"],
-    links: { code: "https://github.com/" },
+    links: { code: "https://github.com/Ampfa15/Full-Stack-Web-Application-for-Data-Visualization" },
   },
 ];
 
