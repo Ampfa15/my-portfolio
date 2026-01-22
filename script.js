@@ -31,19 +31,16 @@ const projects = [
 
 const skills = [
   "Python",
+  "Java",
+  "C#",
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "Web Development",
   "Data Analysis",
-  "SQL",
-  "Data Engineering",
-  "Full‑Stack Development",
-  "Backend Development",
-  "Frontend Development",
-  "Cloud & Deployment",
-  "Kafka",
-  "Spark",
-  "AWS",
-  "Docker",
-  "React",
-  "FastAPI",
+  "Programming Fundamentals",
+  "Customer Service",
+  "Recruitment",
 ];
 
 function setTheme(theme) {
@@ -157,10 +154,15 @@ function setupContactForm() {
 
     const name = String(data.get("name") || "").trim();
     const email = String(data.get("email") || "").trim();
+    const phone = String(data.get("phone") || "").trim();
     const message = String(data.get("message") || "").trim();
 
     const subject = encodeURIComponent(`Portfolio inquiry from ${name}`);
-    const body = encodeURIComponent(`${message}\n\nFrom: ${name} (${email})`);
+    let body = `${message}\n\nFrom: ${name} (${email})`;
+    if (phone) {
+      body += `\nPhone: ${phone}`;
+    }
+    body = encodeURIComponent(body);
 
     // TODO: replace with your actual email
     const to = "ampfarisahonetshitongwe@gmail.com";
