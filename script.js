@@ -40,6 +40,12 @@ const skills = [
   "Backend Development",
   "Frontend Development",
   "Cloud & Deployment",
+  "Kafka",
+  "Spark",
+  "AWS",
+  "Docker",
+  "React",
+  "FastAPI",
 ];
 
 function setTheme(theme) {
