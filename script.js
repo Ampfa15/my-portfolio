@@ -2,24 +2,31 @@ const STORAGE_KEY = "portfolio_theme";
 
 const projects = [
   {
-    title: "Customer Insights Dashboard",
+    title: "Real-time Stock Price Analysis Pipeline",
     description:
-      "Built a Python + SQL pipeline to clean and aggregate sales data, powering an interactive dashboard for revenue insights.",
-    tags: ["Python", "SQL", "ETL", "Dashboards"],
+      "Developed a real-time data pipeline using Kafka and Spark Streaming to process and analyze stock market data. The project involved creating a scalable system to handle high-velocity data, perform complex event processing, and visualize the results in a live dashboard.",
+    tags: ["Kafka", "Spark Streaming", "Python", "Data Engineering"],
     links: { code: "https://github.com/" },
   },
   {
-    title: "Data Pipeline & API",
+    title: "E-commerce Recommendation Engine",
     description:
-      "Designed a FastAPI service on top of a PostgreSQL warehouse to serve curated datasets with caching and auth.",
-    tags: ["FastAPI", "PostgreSQL", "Docker", "APIs"],
+      "Designed and implemented a recommendation engine for an e-commerce platform using collaborative filtering techniques. The system, built with Python and scikit-learn, resulted in a 15% increase in user engagement and a 10% uplift in sales.",
+    tags: ["Python", "scikit-learn", "Pandas", "Machine Learning"],
     links: { code: "https://github.com/" },
   },
   {
-    title: "Churn Prediction Model",
+    title: "Cloud-based Data Warehouse for Sales Analytics",
     description:
-      "Trained and evaluated a scikit‑learn model to predict churn, shipping metrics and explanations for stakeholders.",
-    tags: ["Python", "scikit-learn", "Pandas", "Metrics"],
+      "Architected and deployed a data warehouse on AWS using Redshift and S3. This project involved designing ETL pipelines with Apache Airflow to aggregate data from multiple sources, enabling advanced sales analytics and reporting.",
+    tags: ["AWS", "Redshift", "S3", "Airflow", "ETL"],
+    links: { code: "https://github.com/" },
+  },
+  {
+    title: "Full-Stack Web Application for Data Visualization",
+    description:
+      "Built a full-stack web application using React and FastAPI to visualize complex datasets. The application allows users to upload their data, select different chart types, and interact with the visualizations to gain insights.",
+    tags: ["React", "FastAPI", "Python", "Full-Stack"],
     links: { code: "https://github.com/" },
   },
 ];
