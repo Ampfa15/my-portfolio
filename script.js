@@ -18,8 +18,7 @@ const projects = [
     title: "Cloud-based Data Warehouse for Sales Analytics",
     description:
       "Architected and deployed a data warehouse on AWS using Redshift and S3. This project involved designing ETL pipelines with Apache Airflow to aggregate data from multiple sources, enabling advanced sales analytics and reporting.",
-    tags: ["AWS", "Redshift", "S3", "Airflow", "ETL"],
-    links: { code: "https://github.com/" },
+    links: { code: "https://github.com/Ampfa15/Cloud-based-Data-Warehouse-for-Sales-Analytics" },
   },
   {
     title: "Full-Stack Web Application for Data Visualization",
