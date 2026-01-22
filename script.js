@@ -6,7 +6,7 @@ const projects = [
     description:
       "Developed a real-time data pipeline using Kafka and Spark Streaming to process and analyze stock market data. The project involved creating a scalable system to handle high-velocity data, perform complex event processing, and visualize the results in a live dashboard.",
     tags: ["Kafka", "Spark Streaming", "Python", "Data Engineering"],
-    links: { code: "https://github.com/" },
+    links: { code: "https://github.com/Ampfa15/Real-time-Stock-Price-Analysis-Pipeline" },
   },
   {
     title: "E-commerce Recommendation Engine",
