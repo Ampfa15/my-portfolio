@@ -12,8 +12,7 @@ const projects = [
     title: "E-commerce Recommendation Engine",
     description:
       "Designed and implemented a recommendation engine for an e-commerce platform using collaborative filtering techniques. The system, built with Python and scikit-learn, resulted in a 15% increase in user engagement and a 10% uplift in sales.",
-    tags: ["Python", "scikit-learn", "Pandas", "Machine Learning"],
-    links: { code: "https://github.com/" },
+    links: { code: "https://github.com/Ampfa15/E-commerce-Recommendation-Engine" },
   },
   {
     title: "Cloud-based Data Warehouse for Sales Analytics",
