@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
+
+    <title>Netshitongwe Ampfarisaho — Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Your Name — projects, skills, and contact."
+    />
+
+    <meta property="og:title" content="Your Name — Portfolio" />
+    <meta
+      property="og:description"
+      content="Projects, skills, and contact."
+    />
+    <meta property="og:type" content="website" />
+
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Go to top">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span class="brand-text">Netshitongwe Ampfarisaho</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <button
+            id="themeToggle"
+            class="button button-secondary"
+            type="button"
+            aria-label="Toggle dark mode"
+            aria-pressed="false"
+          >
+            Theme
+          </button>
+          <a class="button" href="#contact">Hire me</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="kicker">Hi, I’m</p>
+            <h1>Netshitongwe Ampfarisaho</h1>
+            <p class="subtitle">
+              Data Engineer & Full‑Stack Developer using Python, SQL, and data
+              analysis to ship reliable, insight‑driven products.
+            </p>
+
+            <div class="hero-cta">
+              <a class="button" href="#projects">View projects</a>
+              <a class="button button-secondary" href="#contact">Contact</a>
+            </div>
+
+            <ul class="meta-row" aria-label="Quick links">
+              <li>
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  >GitHub</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a href="#" id="resumeLink">Resume</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-card" role="region" aria-label="Highlights">
+            <div class="stat">
+              <div class="stat-number" id="yearsExp">0+</div>
+              <div class="stat-label">Years building</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number" id="projectsCount">0+</div>
+              <div class="stat-label">Projects shipped</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">⚡</div>
+              <div class="stat-label">Performance-minded</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container two-col">
+          <div>
+            <h2>About</h2>
+            <p>
+              Write a short intro here: what you do, what you’re learning, and
+              what kinds of roles or projects you want next.
+            </p>
+            <p class="muted">
+              Tip: keep this to 3–5 sentences and make it specific.
+            </p>
+          </div>
+          <div class="card">
+            <h3>What I’m good at</h3>
+            <ul class="checklist">
+              <li>Building responsive UIs</li>
+              <li>Writing maintainable code</li>
+              <li>Shipping features end-to-end</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Projects</h2>
+            <p class="muted">
+              These are rendered from data in <code>script.js</code>.
+            </p>
+          </div>
+          <div id="projectsGrid" class="grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Skills</h2>
+            <p class="muted">A quick snapshot of tools I use most.</p>
+          </div>
+
+          <div class="chips" id="skillsChips" aria-label="Skills list"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container two-col">
+          <div>
+            <h2>Contact</h2>
+            <p>
+              Want to work together? Send a message and I’ll reply as soon as I
+              can.
+            </p>
+            <p class="muted">
+              This form opens your email client (no backend needed).
+            </p>
+          </div>
+
+          <form id="contactForm" class="card" autocomplete="on">
+            <label class="field">
+              <span>Name</span>
+              <input
+                name="name"
+                type="text"
+                placeholder="Your name"
+                required
+              />
+            </label>
+            <label class="field">
+              <span>Email</span>
+              <input
+                name="email"
+                type="email"
+                placeholder="you@example.com"
+                required
+              />
+            </label>
+            <label class="field">
+              <span>Message</span>
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="What would you like to build?"
+                required
+              ></textarea>
+            </label>
+
+            <div class="form-actions">
+              <button class="button" type="submit">Send</button>
+              <p class="muted small" id="formHint" role="status"></p>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p class="muted small">
+          © <span id="year"></span> Your Name. Built with HTML/CSS/JS.
+        </p>
+        <a class="muted small" href="#top">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
