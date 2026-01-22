@@ -163,7 +163,7 @@ function setupContactForm() {
     const body = encodeURIComponent(`${message}\n\nFrom: ${name} (${email})`);
 
     // TODO: replace with your actual email
-    const to = "hello@yourdomain.com";
+    const to = "ampfarisahonetshitongwe@gmail.com";
     const mailto = `mailto:${to}?subject=${subject}&body=${body}`;
 
     if (hint) hint.textContent = "Opening your email client…";
